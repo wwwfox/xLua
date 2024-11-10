@@ -1,3 +1,0 @@
-[submodule "build/lua-protobuf"]
-	path = build/lua-protobuf
-	url = https://github.com/wwwfox/lua-protobuf.git
