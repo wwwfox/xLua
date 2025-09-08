@@ -37,7 +37,7 @@ jobs:
           overwrite: true
 
   android_luajit:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
       - name: Install NDK
@@ -179,7 +179,7 @@ jobs:
           name: plugin_luajit_osx
           overwrite: true
   windows:
-    runs-on: windows-2019
+    runs-on: windows-2022
 
     steps:
       - uses: actions/checkout@v2
@@ -220,7 +220,7 @@ jobs:
           overwrite: true
           
   windows-luajit-32:
-    runs-on: windows-2019
+    runs-on: windows-2022
 
     steps:
       - uses: actions/checkout@v2
